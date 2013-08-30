@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="">
+
+  <rdf:Description rdf:about="tadpole">
+    <dc:plural>tadpoles</dc:plural>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="black">
+    <dc:synonym>dark</dc:synonym>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="frog">
+    <dc:plural>frogs</dc:plural>
+  </rdf:Description>
+</rdf:RDF>
+

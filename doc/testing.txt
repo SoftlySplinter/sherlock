@@ -1,0 +1,31 @@
+Script started on Sat 28 Apr 2012 20:32:29 BST
+softly@edea ~/dev/sherlock $ ./sherlock 
+Welcome to SWI-Prolog (Multi-threaded, 32 bits, Version 5.10.4)
+Copyright (c) 1990-2011 University of Amsterdam, VU Amsterdam
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+?- ask(['are','tadpoles','black']). % Should pass.
+I have the upmost confidence that is true (99.90% confidence).
+true.
+
+?- ask(['are','tadpoles','dark']). % Should pass, but with less confidence
+I am rather certain that is true (89.91% confidence)
+true.
+
+?- ask(['are','tadpoles','green']). % Should fail.
+I do not believe it is likely (0.00% confidence)
+false.
+
+?- ask(['do','tadpoles','turn','into','frogs']). % Should pass
+I am rather certain that is true (89.91% confidence)
+true.
+
+?- halt. % That's all there is defined in the RDF database. 
+?- % However this could go a lot futher with more data.
+softly@edea ~/dev/sherlock $ exit
+
+Script done on Sat 28 Apr 2012 20:34:05 BST

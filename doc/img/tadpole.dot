@@ -1,0 +1,5 @@
+digraph G {
+	Black
+	Tadpole -> Frog [label="turns into"];
+	Tadpole -> Black [label="color"];
+}

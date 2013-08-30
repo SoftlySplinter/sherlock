@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="">
+
+  <rdf:Description rdf:about="tadpole">
+    <dc:title>Tadpole</dc:title>
+    <dc:color>Black</dc:color>
+    <dc:turnsinto>Frog</dc:turnsinto>
+  </rdf:Description>
+</rdf:RDF>

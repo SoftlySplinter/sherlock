@@ -1,0 +1,30 @@
+Script started on Sat 28 Apr 2012 20:32:29 BST
+[32;1msoftly@edea [34;1m~/dev/sherlock [34;1m$ [0m./sherlock 
+Welcome to SWI-Prolog (Multi-threaded, 32 bits, Version 5.10.4)
+Copyright (c) 1990-2011 University of Amsterdam, VU Amsterdam
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+?- ask(['are','tadpoles','black'[[K])[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. % Should pass.
+I have the upmost confidence that is true (99.90% confidence).
+true.
+
+?- ask(['are','tadpoles','black']).[C[1P']).[1P']).[1P']).[1P']).[1P']).d']).a']).r']).k']).[C[C[C[C % Should pass, but with ls[Kess confidence
+I am rather certain that is true (89.91% confidence)
+true.
+
+?- ask(['are','tadpoles','dark']).[1P']).[1P']).[1P']).[1P']).g']).r']).e']).e']).n']).[C[C[C[C % Should fail.
+I do not believe it is likely (0.00% confidence)
+false.
+
+?- ask([;'[K[K'do','tadpoles','tru[K[Kurn','into','frogs'])[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. % Should pass
+I am rather certain that is true (89.91% confidence)
+true.
+
+?- halt. % That's all there is defined in the RDF database. However this could go a lot futher with more a[Kdata.
+[32;1msoftly@edea [34;1m~/dev/sherlock [34;1m$ [0mexit
+
+Script done on Sat 28 Apr 2012 20:34:05 BST

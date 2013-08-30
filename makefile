@@ -1,11 +1,12 @@
 OUT=sherlock
 SRC=src/
 ASK=ask.pl
+COMPILER=prolog
 
 all: ${OUT}
 
-${OUT}:
-	prolog -o ${OUT} -c ${SRC}${ASK}
+${OUT}: 
+	${COMPILER} -o ${OUT} -c ${SRC}${ASK}
 
 clean:
 	rm -rf ${OUT}

@@ -1,12 +1,16 @@
 OUT=sherlock
 SRC=src/
+TEST=test/
 ASK=ask.pl
-COMPILER=prolog
+INPTR=prolog
 
 all: ${OUT}
 
 ${OUT}: 
-	${COMPILER} -o ${OUT} -c ${SRC}${ASK}
+	${INPTR} -o ${OUT} -c ${SRC}${ASK}
 
 clean:
 	rm -rf ${OUT}
+
+test:
+	${INPTR} -s ${TEST}/test_rdf.pl

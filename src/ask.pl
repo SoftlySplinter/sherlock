@@ -1,5 +1,5 @@
 % Main program file. Main asking routines stored here.
-:- module(ask, [ask/1]).
+:- module(ask, [ask/0, ask/1]).
 :- use_module(['./rdf_utils.pl', './synonym.pl']).
 
 ask:-
